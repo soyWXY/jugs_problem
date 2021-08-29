@@ -150,7 +150,9 @@ int main() {
         }
     }
     
-    if (!(j.size() & target & step)) {
+    if (j.size() == 0 ||
+     target == 0 ||
+     step == 0) {
         cout << "input error!!!" << endl;
     }
     
